@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// nu,bers
 public class back {
 
     private int array[][];
