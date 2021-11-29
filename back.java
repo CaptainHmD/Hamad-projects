@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// nu,bers
+
 public class back {
 
     private int array[][];
@@ -125,7 +125,7 @@ public class back {
                 if (array[i][j] > 9)
                     System.out.print(array[i][j] + " ");
                  else if(array[i][j]==0)
-                    System.out.print( "  ");
+                    System.out.print("   ");
                  else
                 System.out.print(array[i][j] + "  ");
                 if (size - 1 == j) {

@@ -5,9 +5,15 @@ public class main {
         Scanner in = new Scanner(System.in); // create scanner object
 
 
-        System.out.println("Please enter the size of the game minimum is 3");
-        int size = in.nextInt();
-        in.nextLine();
+        int size;
+        do{
+            System.out.println("Please enter the size of the game minimum is 3");
+            size= in.nextInt();
+            if(size<3)
+                System.out.println("Wrong size");
+        }while(size<3);
+
+
         back key = new back(size); // constructor
         key.fillRandomNumberUnique();
         boolean winner;
